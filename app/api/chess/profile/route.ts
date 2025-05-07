@@ -2,7 +2,6 @@ import { NextResponse } from 'next/server';
 import axios from 'axios';
 import { db } from '@/app/db/client';
 import { chessProfile, chessStats } from '@/app/db/schema';
-import { eq } from 'drizzle-orm';
 
 const CHESS_API_BASE = 'https://api.chess.com/pub';
 
