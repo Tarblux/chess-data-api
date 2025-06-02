@@ -30,4 +30,4 @@ jobs:
       env:
         CHROME_BIN: /usr/bin/google-chrome
       run: |
-        python get_chess_stats.py
+        python get_rank_stats.py
